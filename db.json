@@ -1,0 +1,201 @@
+{
+  "polls": [
+    {
+      "formId": "133104255de2ea8391951760fceea907",
+      "groupId": "All pols"
+    },
+    {
+      "formId": "3ab33b1b1e86344a0dd9368e0a600fa2",
+      "groupId": "Hobbies"
+    },
+    {
+      "formId": "4678b62797f121f084b8182f7610d3ff",
+      "groupId": "Age and favorite color"
+    }
+  ],
+  "poll": [
+    {
+      "id": "133104255de2ea8391951760fceea907",
+      "questions": [
+        {
+          "data": [
+            {
+              "result": "Cycling",
+              "count": 10
+            },
+            {
+              "result": "Football",
+              "count": 1
+            },
+            {
+              "result": "Running",
+              "count": 7
+            }
+          ],
+          "questionId": "3836508bb3fe3dafc3da5d08dbf9bf98",
+          "question": "What hobbies do you like?",
+          "total": 18
+        },
+        {
+          "data": [
+            {
+              "result": "Club Brugge",
+              "count": 11
+            },
+            {
+              "result": "RSC Anderlecht",
+              "count": 8
+            },
+            {
+              "result": "Union SG",
+              "count": 20
+            }
+          ],
+          "questionId": "6eb1d8c26222cd624e1deeab1e7834fe",
+          "type": "checkbox",
+          "question": "What is your favorite football team?",
+          "total": 39,
+          "sum": 0,
+          "avg": 0
+        },
+        {
+          "data": [
+            {
+              "result": "18 years",
+              "count": 4
+            },
+            {
+              "result": "100 years",
+              "count": 4
+            },
+            {
+              "result": "3 years",
+              "count": 5
+            },
+            {
+              "result": "5 years",
+              "count": 5
+            },
+            {
+              "result": "20 years",
+              "count": 8
+            },
+            {
+              "result": "21 years",
+              "count": 12
+            },
+            {
+              "result": "22 years",
+              "count": 1
+            },
+            {
+              "result": "45 years",
+              "count": 3
+            },
+            {
+              "result": "26 years",
+              "count": 8
+            },
+            {
+              "result": "76 years",
+              "count": 12
+            },
+            {
+              "result": "90 years",
+              "count": 1
+            },
+            {
+              "result": "49 years",
+              "count": 3
+            }
+          ],
+          "questionId": "de296ab3f8e5924664d54a10de89fd98",
+          "question": "How old are you?",
+          "total": 66
+        },
+        {
+          "data": [
+            {
+              "result": "Red",
+              "count": 4
+            },
+            {
+              "result": "Yellow",
+              "count": 1
+            }
+          ],
+          "questionId": "f29e3a067b24edb4658c64fe5367a4e1",
+          "question": "What is your favorite color?",
+          "total": 5
+        }
+      ]
+    },
+    {
+      "id": "3ab33b1b1e86344a0dd9368e0a600fa2",
+      "questions": [
+        {
+          "data": [
+            {
+              "result": "Cycling",
+              "count": 102
+            },
+            {
+              "result": "Football",
+              "count": 35
+            },
+            {
+              "result": "Running",
+              "count": 17
+            }
+          ],
+          "questionId": "3836508bb3fe3dafc3da5d08dkf9bf98",
+          "question": "What hobbies do you like?",
+          "total": 154
+        }
+      ]
+    },
+    {
+      "id": "4678b62797f121f084b8182f7610d3ff",
+      "questions": [
+        {
+          "data": [
+            {
+              "result": "18 years",
+              "count": 24
+            },
+            {
+              "result": "100 years",
+              "count": 12
+            },
+            {
+              "result": "24 years",
+              "count": 14
+            },
+            {
+              "result": "32 years",
+              "count": 10
+            }
+          ],
+          "questionId": "de296ab3f8e5924664d54ah0de89fd98",
+          "question": "How old are you?",
+          "total": 60
+        },
+        {
+          "data": [
+            {
+              "result": "Red",
+              "count": 4
+            },
+            {
+              "result": "Yellow",
+              "count": 1
+            }
+          ],
+          "questionId": "f29e3a067b24edb4658c64fe5367a4r1",
+          "question": "What is your favorite color?",
+          "total": 5
+        }
+      ]
+    }
+  ]
+}

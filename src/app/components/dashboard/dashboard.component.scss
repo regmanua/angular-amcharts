@@ -1,0 +1,43 @@
+$layout-breakpoint-small: 960px;
+
+.poll-chart {
+  width: 50%;
+}
+mat-card {
+  margin-bottom: 1rem;
+}
+.h-350 {
+  height: 350px;
+}
+.h-400 {
+  height: 400px;
+}
+.h-250 {
+  height: 250px;
+}
+.h-auto {
+  height: auto;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  &.center {
+    justify-content: center;
+  };
+  &.end {
+    justify-content: end;
+  }
+  align-items: center;
+}
+.total {
+  margin-top: 10px;
+  font-weight: 600;
+}
+@media (max-width: $layout-breakpoint-small) {
+  .flex {
+    flex-direction: column;
+  }
+  .poll-chart {
+    width: 100%;
+  }
+}
