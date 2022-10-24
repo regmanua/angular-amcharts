@@ -12,7 +12,7 @@ export class PollsService {
 
   getPollById(pollId: string): Observable<IPoll> {
     const URL = `${REST_API_URL}/poll/${pollId}`;
-    return this.http.get<IPoll>(URL).pipe(delay(2000));
+    return this.http.get<IPoll>(URL).pipe(delay(1500));
   }
 
   getAllPolls(): Observable<IPollGroup[]> {

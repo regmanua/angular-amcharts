@@ -120,6 +120,7 @@ export class DashboardComponent implements OnInit {
             renderer: am5xy.AxisRendererX.new(root, {}),
             visible: false,
             calculateTotals: true,
+            extraMax: 0.1,
           })
         );
 

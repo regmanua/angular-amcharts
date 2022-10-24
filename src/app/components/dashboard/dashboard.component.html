@@ -4,12 +4,12 @@
 <mat-form-field *ngIf="pollsList.length > 0" appearance="fill">
   <mat-label>Select poll</mat-label>
   <mat-select name="polls" id="polls" (selectionChange)="groupIdSelected($event)">
-    <mat-option *ngFor="let poll of pollsList; index as i" [value]="poll.formId">{{ poll.groupId }}</mat-option>
+    <mat-option *ngFor="let poll of pollsList" [value]="poll.formId">{{ poll.groupId }}</mat-option>
   </mat-select>
 </mat-form-field>
 <ng-container *ngIf="selectedPoll">
   <ng-container *ngIf="!isLoading; else loading">
-    <mat-card *ngFor="let question of selectedPoll.questions; index as i">
+    <mat-card *ngFor="let question of selectedPoll.questions">
       <mat-card-header>
         <mat-card-title>{{ question.question }}</mat-card-title>
       </mat-card-header>
@@ -27,6 +27,5 @@
   </ng-container>
   <ng-template #loading>
     <div class="flex center h-400"><mat-spinner></mat-spinner></div>
-    <!-- <mat-progress-bar mode="indeterminate"></mat-progress-bar> -->
   </ng-template>
 </ng-container>
